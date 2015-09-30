@@ -52,7 +52,7 @@ try {
     }*/
 
 } catch (Exception  $exception) {
-    echo "Exception Occured.$exception->getMessage()";
+    echo "Exception Occured".$exception->getMessage();
 }
 
 ?>

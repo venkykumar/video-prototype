@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="video-prototype/">
+    <serverData>
+      <paths name="video-prototype/">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="video-prototype" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>

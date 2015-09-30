@@ -17,7 +17,7 @@ try {
     $url1 = S3_EUROPE_BUCKET."/content/test/perf/Momentum.mp4";
     $url2 = S3_EUROPE_BUCKET."/content/test/perf/Momentum_converted.mp4";
 
-    /*$result = $s3client->listBuckets();
+    $result = $s3client->listBuckets();
 
 
     foreach ($result['Buckets'] as $bucket) {
@@ -26,7 +26,7 @@ try {
         foreach ($bucket as $name) {
             echo "$name<br>";
         }
-    }*/
+    }
 
 
     //$plainUrl = $s3client->getObjectUrl(S3_EUROPE_BUCKET, 'waterfalls.mp4');
@@ -43,7 +43,7 @@ try {
     echo $signedUrl2;
 
 } catch (Exception  $exception) {
-   // echo "Exception Occured.$exception->getMessage()";
+    echo "Exception Occured".$exception->getMessage();
 }
 
 ?>
